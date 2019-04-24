@@ -1,0 +1,24 @@
+{
+  "name": "auto-reload-page",
+  "version": "1.0.0",
+  "description": "Auto reload a page at a specified interval.",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo demo.js --open --live"
+  },
+  "author": "Damien Seguin (https://dmnsgn.me)",
+  "license": "MIT",
+  "repository": "https://github.com/dmnsgn/auto-reload-page",
+  "keywords": [
+    "auto",
+    "automatic",
+    "page",
+    "reload",
+    "reloader",
+    "frameset",
+    "frame"
+  ],
+  "devDependencies": {
+    "budo": "^11.6.2"
+  }
+}
