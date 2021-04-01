@@ -2,13 +2,6 @@
   "name": "auto-reload-page",
   "version": "1.0.0",
   "description": "Auto reload a page at a specified interval.",
-  "main": "index.js",
-  "scripts": {
-    "start": "budo demo.js --open --live"
-  },
-  "author": "Damien Seguin (https://dmnsgn.me)",
-  "license": "MIT",
-  "repository": "https://github.com/dmnsgn/auto-reload-page",
   "keywords": [
     "auto",
     "automatic",
@@ -18,7 +11,26 @@
     "frameset",
     "frame"
   ],
-  "devDependencies": {
-    "budo": "^11.6.2"
+  "homepage": "https://github.com/dmnsgn/auto-reload-page",
+  "bugs": "https://github.com/dmnsgn/auto-reload-page/issues",
+  "repository": "dmnsgn/auto-reload-page",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Damien Seguin (https://github.com/dmnsgn)",
+  "type": "module",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "engines": {
+    "node": ">=15.0.0",
+    "npm": ">=7.0.0"
   }
 }

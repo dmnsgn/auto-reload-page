@@ -1,3 +1,10 @@
+/**
+ * Auto reload a page at a specified interval.
+ *
+ * @param {string} url Url to be opened
+ * @param {number} [interval=60 * 1000] Interval between each reload
+ * @param {string} [title="Page content auto reloading"] An optional page title for the separate window
+ */
 function autoReloadPage(
   url,
   interval = 60 * 1000,
@@ -25,4 +32,4 @@ function autoReloadPage(
   w.document.close();
 }
 
-module.exports = autoReloadPage;
+export default autoReloadPage;
