@@ -37,6 +37,20 @@ autoReloadPage("https://www.ipcc.ch/", 10000);
 
 <!-- api-start -->
 
+<a name="autoReloadPage"></a>
+
+## autoReloadPage(url, [interval], [title])
+
+Auto reload a page at a specified interval.
+
+**Kind**: global function
+
+| Param      | Type                | Default                                                            | Description                                    |
+| ---------- | ------------------- | ------------------------------------------------------------------ | ---------------------------------------------- |
+| url        | <code>string</code> |                                                                    | Url to be opened                               |
+| [interval] | <code>number</code> | <code>60 \* 1000</code>                                            | Interval between each reload                   |
+| [title]    | <code>string</code> | <code>&quot;\&quot;Page content auto reloading\&quot;&quot;</code> | An optional page title for the separate window |
+
 <!-- api-end -->
 
 ## License
