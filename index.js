@@ -8,7 +8,7 @@
 function autoReloadPage(
   url,
   interval = 60 * 1000,
-  title = "Page content auto reloading"
+  title = "Page content auto reloading",
 ) {
   const w = window.open("about:blank", "_blank");
   w.document.write(/* html */ `<!doctype html>
