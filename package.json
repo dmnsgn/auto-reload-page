@@ -1,6 +1,6 @@
 {
   "name": "auto-reload-page",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Auto reload a page at a specified interval.",
   "keywords": [
     "auto",
@@ -13,7 +13,10 @@
   ],
   "homepage": "https://github.com/dmnsgn/auto-reload-page",
   "bugs": "https://github.com/dmnsgn/auto-reload-page/issues",
-  "repository": "dmnsgn/auto-reload-page",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/auto-reload-page.git"
+  },
   "funding": [
     {
       "type": "individual",
